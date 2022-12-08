@@ -1,0 +1,7 @@
+/* Categorycard */
+.category_hide:hover .show_icons_hov {
+  display: block;
+}
+
+.show_icons_hov {
+}

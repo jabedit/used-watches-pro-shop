@@ -1,0 +1,4 @@
+.hidden_element:hover .show_element {
+  display: block;
+  transition: 0.5;
+}

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 500px) {
+  .category_card_custom_css {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .allcategory_products_custom_css {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
