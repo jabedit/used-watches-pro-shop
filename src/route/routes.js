@@ -14,7 +14,7 @@ import MyWishList from '../page/BuyerDashboard/MyWishList'
 import Home from '../page/home/Home'
 import Login from '../page/Login/Login'
 import Registration from '../page/Login/Registration'
-import PageNotFound from '../page/not-found/PageNotFound'
+import NotFound from '../page/notFound/NotFound'
 import ProductDetails from '../page/ProductDetails/ProductDetails'
 import AddLaptop from '../page/SellerDashboard/AddLaptop'
 import MyBuyer from '../page/SellerDashboard/MyBuyer'
@@ -82,7 +82,7 @@ const routes = createBrowserRouter([
       },
       {
         path: '*',
-        element: <PageNotFound />,
+        element: <NotFound />,
       },
     ],
   },
@@ -107,7 +107,7 @@ const routes = createBrowserRouter([
         element: <AllSellers />,
       },
       {
-        path: 'all-watches',
+        path: 'all-laptops',
         element: <AllLaptops />,
       },
       {
@@ -125,11 +125,11 @@ const routes = createBrowserRouter([
     ),
     children: [
       {
-        path: 'your-watches',
+        path: 'your-laptops',
         element: <YourLaptop />,
       },
       {
-        path: 'add-watches',
+        path: 'add-laptop',
         element: <AddLaptop />,
       },
       {

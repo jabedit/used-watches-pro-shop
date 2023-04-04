@@ -22,35 +22,35 @@ function AdminDashbord() {
                 <NavLink
                   to="all-category"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
                   All Category
                 </NavLink>
                 <NavLink
-                  to="all-watches"
+                  to="all-laptops"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
-                  All Watches
+                  All Laptops
                 </NavLink>
                 <NavLink
                   to="all-users"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
                   All Users
                 </NavLink>
                 <NavLink
                   to="all-sellers"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
                   All Sellers
                 </NavLink>
                 <NavLink
                   to="reported-items"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
                   Reported Items
                 </NavLink>

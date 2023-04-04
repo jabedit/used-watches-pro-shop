@@ -2,16 +2,14 @@ import React from 'react'
 import logoWhite from '../../media/img/laptop-hunter-logo white.png'
 import logoDark from '../../media/img/laptop-hunter-logo-dark.png'
 import logoBlue from '../../media/img/laptop-hunter-blue.png'
-import watchlogo from '../../media/img/watchlogo.png'
 function Footer() {
   return (
-    <div className="bg-orange-400 !text-white">
+    <div className="bg-blue-900 !text-white">
       <footer className="footer py-10 px-5 container mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <img  src={watchlogo} className="w-20" alt="" />
-   
+          <img src={logoBlue} className="w-36" alt="" />
           <p>
-            Watch-House
+            Laptop Hunter
             <br />
             WE ARE IN THE 2010 TO {new Date().getFullYear()}
           </p>
@@ -41,7 +39,7 @@ function Footer() {
         <div>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
-            watch House
+            Laptop Hunter
           </p>
         </div>
       </footer>

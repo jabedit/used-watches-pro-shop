@@ -20,23 +20,23 @@ function SellerDashboard() {
             <div className="xl:w-64 bg-blue-100 rounded-md">
               <ul className="flex round rounded-md p-3 gap-3 flex-wrap xl:flex-col ">
                 <NavLink
-                  to="your-watches"
+                  to="your-laptops"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
-                  Your Watches
+                  Your Laptops
                 </NavLink>
                 <NavLink
-                  to="add-watches"
+                  to="add-laptop"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
-                  Add new Watches
+                  Add new Laptop
                 </NavLink>
                 <NavLink
                   to="my-buyer"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  className="p-3 bg-yellow-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
+                  className="p-3 bg-blue-200 shadow my-1 hover:bg-[#2563ebe3] hover:text-white rounded-md"
                 >
                   My Buyer
                 </NavLink>

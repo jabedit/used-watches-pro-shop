@@ -28,7 +28,7 @@ function ShopPage() {
           </p>
 
           <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
-            Here is all watches you can booking any watch
+            Here is all Laptops you can booking any Laptop
           </h2>
         </div>
         <div>

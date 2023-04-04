@@ -14,7 +14,7 @@ function PromotionLaptops({ promote_laptops }) {
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           <div className="text-center mb-10 md:mb-16">
-            <HeaderOne>Promotion Watch</HeaderOne>
+            <HeaderOne>Promotion Laptops</HeaderOne>
           </div>
 
           <div className="antialiased bg-sky-100 text-gray-900 font-sans p-6">

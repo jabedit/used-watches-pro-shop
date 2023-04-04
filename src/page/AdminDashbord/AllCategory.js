@@ -15,7 +15,7 @@ function AllCategory() {
     <div>
       <div>
         <div className="mb-10 w-full ">
-          <div className="h-full flex items-center  bg-yellow-300 border-yellow-300 hover:bg-[#4eb9ef] transition-all shadow-md border p-4 rounded-lg">
+          <div className="h-full flex items-center bg-[#81C6E8] border-blue-300 hover:bg-[#4eb9ef] transition-all shadow-md border p-4 rounded-lg">
             <div className="flex-grow">
               <label
                 htmlFor="add_category_modal"

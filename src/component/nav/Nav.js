@@ -1,8 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
+import logoWhite from '../../media/img/laptop-hunter-logo white.png'
 import logoDark from '../../media/img/laptop-hunter-logo-dark.png'
+import logoBlue from '../../media/img/laptop-hunter-blue.png'
+import svg_code from '../../media/img/nav-bg.svg'
 import { UserSystem } from '../../context/FirebaseContext'
+import Login from '../../page/Login/Login'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import  watchLogo  from '../../media/img/watchlogo.png'
 
 function Nav() {
   const [getUser, setgetUser] = useState(null)
@@ -79,7 +82,8 @@ function Nav() {
   )
   return (
     <div
-      className="bg-yellow-600 shadow-lg"
+      className="bg-blue-100 shadow-lg"
+      style={{ backgroundImage: `url(${svg_code})` }}
     >
       <div className="navbar container mx-auto">
         <div className="navbar-start">
@@ -105,8 +109,7 @@ function Nav() {
             </ul>
           </div>
           <Link to="/" className="">
-            <img className="w-20" src={watchLogo} alt="" />
-            <p className='text-white font-bold'>watchHouse</p>
+            <img className="w-24" src={logoDark} alt="" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -115,7 +118,11 @@ function Nav() {
         <div className="navbar-end">
           {user?.uid ? (
             <Link to="/profile">
-              <button className='btn  bg-slate-900 rounded-lg '>User Profile</button>
+              <div className="avatar online placeholder">
+                <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                  <span className="text-sm">Profile</span>
+                </div>
+              </div>
             </Link>
           ) : pathName === '/login' ? (
             <Link

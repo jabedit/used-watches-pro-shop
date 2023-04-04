@@ -72,7 +72,7 @@ function SellerOwnLaptopsCard({ laptops, refetch, i }) {
           .then((r) => {
             refetch().then((nex) => {
               if (r.acknowledged) {
-                swal('Successfuly Live Your Watch in Home Page', {
+                swal('Successfuly Live Your Laptop in Home Page', {
                   icon: 'success',
                 })
               }

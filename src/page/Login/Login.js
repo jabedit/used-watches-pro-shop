@@ -70,7 +70,7 @@ function Login() {
       </Helmet>
       <section className=" overflow-hidden container mx-auto py-36 px-2">
         <div className="flex min- overflow-hidden">
-       
+          <LoginImg />
           <div className="flex flex-col justify-center flex-1 px-4 py-12 overflow-hidden sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-white shadow-2xl border-blue-300 border-4 rounded-xl">
             <div className="w-full max-w-xl mx-auto lg:w-96">
               <div>

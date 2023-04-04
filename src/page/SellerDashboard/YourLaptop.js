@@ -21,7 +21,7 @@ function YourLaptop() {
         <div className="container px-5  mx-auto">
           <div className="flex flex-col text-center w-full mb-10">
             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
-              Your All Watches here
+              Your All Laptops here
             </h1>
           </div>
           <div className=" w-full mx-auto overflow-auto">

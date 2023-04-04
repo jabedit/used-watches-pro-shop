@@ -3,11 +3,9 @@ import { FadeLoader } from 'react-spinners'
 import PromotionProductLoad from '../../context/PromotionProductLoad'
 import AllCategoyProduct from './AllCategoyProduct'
 import PromotionLaptops from './PromotionLaptops'
-
+import Testemonial from './Testemonial'
 import './home.css'
-
-import FreeShipping from './FreeShiping/FreeShipping'
-import Banner from './Banner/Banner'
+import HeroSection from './HeroSection'
 
 function Home() {
   const { promote_laptops, isLoading } = PromotionProductLoad()
@@ -15,9 +13,9 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>Watch-house</title>
+        <title>Laptop Hunter</title>
       </Helmet>
-      <Banner />
+      <HeroSection />
       <div className="flex justify-center">
         {isLoading && <FadeLoader color="#36d7b7" />}
       </div>
@@ -25,7 +23,7 @@ function Home() {
         <PromotionLaptops promote_laptops={promote_laptops} />
       )}
       <AllCategoyProduct />
-     <FreeShipping />
+      <Testemonial />
     </div>
   )
 }

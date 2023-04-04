@@ -59,7 +59,7 @@ function AddLaptop() {
                   draggable: true,
                   autoClose: 300,
                 })
-                navigate('/seller-dahboard/your-watches')
+                navigate('/seller-dahboard/your-laptops')
               }
             })
             .catch(
@@ -69,7 +69,7 @@ function AddLaptop() {
                   draggable: true,
                   autoClose: 300,
                 }),
-              navigate('/seller-dahboard/your-watches'),
+              navigate('/seller-dahboard/your-laptops'),
             )
           e.target.reset()
         }
@@ -79,12 +79,12 @@ function AddLaptop() {
     <div className="lg:w-1/2 mx-auto bg-blue-50 px-8 py-4 rounded-md shadow-lg">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mt-4">
-          <label htmlFor="laptop-name">Watch Name</label>
+          <label htmlFor="laptop-name">Laptop Name</label>
           <input
             {...register('laptop_name', { required: true })}
             id="laptop-name"
             type="text"
-            placeholder="Watch Name"
+            placeholder="Laptop Name"
             className="input input-bordered w-full mt-2"
           />
         </div>
@@ -114,7 +114,7 @@ function AddLaptop() {
         </div>
 
         <div className="mt-4">
-          <label htmlFor="condition">What About Watch Condition?</label>
+          <label htmlFor="condition">What About Laptop Condition?</label>
 
           <select
             id="condition"
@@ -187,7 +187,7 @@ function AddLaptop() {
         </div>
 
         <button type="submit" className="btn btn-info text-white w-full my-4">
-          Add Watch
+          Add Laptop
         </button>
       </form>
     </div>
